@@ -17,8 +17,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
  	
     <!-- About phone screen, A2D-MY version -->
-    <string name="a2d_version">A2D-MY version</string>
-    <string name="a2d_version_default">RC-BETA</string>
+    <string name="mod_version">A2D-MY version</string>
+    <string name="mod_version_default">RC-BETA</string>
+	<string name="model_name">Model name</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>

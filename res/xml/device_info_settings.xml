@@ -36,16 +36,7 @@
                     android:targetPackage="@string/additional_system_update"
                     android:targetClass="@string/additional_system_update_menu" />
         </PreferenceScreen>
-
-        <!-- CyanogenMod Updates -->
-        <PreferenceScreen android:key="cm_updates"
-                android:title="@string/cmupdate_settings_title"
-                android:summary="@string/system_update_settings_list_item_summary">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.cyanogenmod.updater"
-                    android:targetClass="com.cyanogenmod.updater.UpdatesSettings" />
-        </PreferenceScreen>
-
+      
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status" 
@@ -129,18 +120,12 @@
                 style="?android:preferenceInformationStyle"
                 android:title="@string/model_name"
                 android:summary="@string/device_info_default"/>
-
-        <!-- Mod version -->
-        <Preference android:key="mod_version"
-                style="?android:preferenceInformationStyle"
-                android:title="@string/mod_version"
-                android:summary="@string/mod_version_default" />
-
+     
 	<!-- A2D-MY version -->
-	<Preference android:key="a2d_version"
+	<Preference android:key="mod_version"
          	style="?android:preferenceInformationStyle"
-         	android:title="@string/a2d_version"
-         	android:summary="@string/a2d_version_default" />
+         	android:title="@string/mod_version"
+         	android:summary="@string/mod_version_default" />
 
         <!-- Device firmware version -->
         <Preference android:key="firmware_version" 
